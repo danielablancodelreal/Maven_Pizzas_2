@@ -1,0 +1,54 @@
+Ánalisis del fichero: orders1.csv
+
+Cantidad de nulls en total:
+4391
+
+Cantidad de nulls por columnas:
+order_id       0
+date        2353
+time        2038
+dtype: int64
+
+Cantidad de NaN en total:
+4391
+
+Cantidad de NaN por columnas:
+order_id       0
+date        2353
+time        2038
+dtype: int64
+
+Tipos de datos por columnas:
+order_id     int64
+date        object
+time        object
+dtype: object
+
+Ánalisis del fichero: order_details1.csv
+
+Cantidad de nulls en total:
+10399
+
+Cantidad de nulls por columnas:
+order_details_id       0
+order_id               0
+pizza_id            5673
+quantity            4726
+dtype: int64
+
+Cantidad de NaN en total:
+10399
+
+Cantidad de NaN por columnas:
+order_details_id       0
+order_id               0
+pizza_id            5673
+quantity            4726
+dtype: int64
+
+Tipos de datos por columnas:
+order_details_id     int64
+order_id             int64
+pizza_id            object
+quantity            object
+dtype: object
